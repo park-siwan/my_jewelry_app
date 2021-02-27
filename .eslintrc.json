@@ -3,12 +3,16 @@
     "react-app",
     "plugin:prettier/recommended"
   ],
+  "plugins":["prettier"],
   "rules": {
     "prettier/prettier": [
       "error",
       {
-        "endOfLine": "auto"
+        "endOfLine": "auto",
+        "singleQuote": true,
+        "parser": "flow"
       }
+     
     ]
   }
 }
